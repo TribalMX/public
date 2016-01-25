@@ -1,7 +1,7 @@
 
 # Routes
 
-## Get User Data
+## User Data
 
 Endpoint | Description 
 ---- | --------------- 
@@ -54,3 +54,16 @@ POST videogami.tv/api/v2/clips?user=:user&title=:title| Create a Clip
 | GET /api/c/:user | http redirect to new clip page|
 
 - This route can be used as anchor tag for clipping button, ex http://videogami.tv/api/c/riotgames
+
+
+
+### Other Routes
+| Endpoint | Description |
+| ---- | --------------- |
+GET 	/api/v2/users| Newest Users
+GET 	/api/v2/clips| Latest Clips
+GET 	/api/v2/clips/hot| Trending Clips
+GET 	/api/v2/clips/:clip| Get a clip by ID
+GET 	/api/v2/broadcasts| Latest broadcasts
+GET 	/api/v2/broadcasts/live|  Live broadcasts
+GET 	/api/v2/broadcasts/:broadcast| Get a broadcast by ID
