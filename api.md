@@ -45,7 +45,7 @@ POST videogami.tv/api/v2/clips?user=:user&title=:title| Create a Clip
 | ---- | --------------- |
 | GET /api/clink/:user | returns link to clip page in plain text |
 
-- This is what existing users are using with your custom api command
+- This is what existing users are using with your custom api command, ex http://videogami.tv/api/clink/riotgames
 
 ### Clipping Button
 
