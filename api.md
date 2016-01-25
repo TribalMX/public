@@ -39,6 +39,8 @@ POST videogami.tv/api/v2/clips?user=:user&title=:title| Create a Clip
 
 ## Alternative Clipping Routes
 
+_**NOTE:** *Notice there is no `/v2/`*_
+
 ### Plain Text Link
 
 | Endpoint | Description |
