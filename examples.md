@@ -104,8 +104,8 @@ Example returned clip object:
 ### Alternative Clipping Routes
 
 -  You could also create clips through the other two routes
-    - videogami.tv/api/c/hologramgirl
-    - videogami.tv/api/clink/hologramgirl
+    - GET videogami.tv/api/c/hologramgirl - http redirect to the new clip page
+    - GET videogami.tv/api/clink/hologramgirl - returns a plain text link
 
 ### Link to a Clip
 - link: `clip.links.full`
