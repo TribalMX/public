@@ -1,8 +1,8 @@
-## Example Flow
+## Examples
 
 
 ### Registration
-- A user "hologramgirl" registers with NightBot
+- Register Twitch user hologramgirl with Videogami.tv
 
 `POST videogami.tv/api/v2/users?twitch=hologramgirl`
 
