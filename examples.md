@@ -136,3 +136,9 @@ You can access the url of the embed clip player using `clip.links.embed`.
   "clips": [...]
 }
 ```
+
+
+### User Claims Videogami Account
+
+- Users can claim/login to the Videogami account you created for them just by going to http://videogami.tv/connect/twitch
+
