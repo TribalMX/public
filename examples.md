@@ -29,9 +29,13 @@ Example returned user object:
 
 ### Clip Creation
 
-- create a clip (and get the full object back)
+- use the `local.username` or user `id` to create a clip (and get the full object back)
 
 `POST videogami.tv/api/v2/clips?user=hologramgirl&title=test%20clip2`
+
+*OR*
+
+`POST videogami.tv/api/v2/clips?user=56a5f12936cd3bc61fbb51c0&title=test%20clip2`
 
 Example returned clip object:
 ```
